@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url(https://www.wallpapertip.com/wmimgs/124-1247844_sunset-wallpaper-4k.jpg);
     
@@ -12,40 +13,54 @@ html{
 }
 
 
-.c1, .c2, .c3{
+.main-section{
     width: 100%;
    
 }
 
 
-.c1 {
+.main-section{
+    
     background: rgb(251,159,63);
     background: radial-gradient(circle, rgba(251,159,63,1) 0%, rgba(231,42,19,1) 100%);
     text-align: center;
     position: fixed;
-    
+    top: 0%;
     
 }
 h1, span {
     color: #F5E4E4;
     
 }
-.c1 span {
+.main-section span {
     
     font-size: 1.6rem;
     
 
 }
-
-
-
-img {
-    width: 45rem;
-    height: 30rem;
-    border-radius: 5%;
-    margin: 4.5rem;
-    margin-left: 10rem;
+.images-section {
+    background: rgb(121,119,158);
+    background: linear-gradient(90deg, rgba(121,119,158,1) 0%, rgba(252,166,139,0.5452556022408963) 0%, rgba(33,3,60,1) 100%);
+    padding: 0;
+    margin: 5%;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+
+.images-section img {
+    
+    max-width: 45rem;
+    border-radius: 5%;
+    margin: 5rem;
+    
+
+}
+
+
+
 
 
 footer a {
@@ -69,9 +84,8 @@ footer {
     position:fixed;
 }
 
-
- @media (min-width: 600px){
-    .c1{
+@media (min-width: 600px){
+    .main-section{
         width: 100%;
     }
   
@@ -86,7 +100,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    .c1{
+    .main-section{
         width: 100%;
         
     }
